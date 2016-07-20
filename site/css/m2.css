@@ -1,0 +1,41 @@
+* { box-sizing: border-box; }
+ 
+ body {
+  font-family: serif, arial, sans-serif;
+  background: #B2BEB5
+ }
+
+ h1 {
+  text-align: center;
+  font-size: 1.75rem;
+ }
+ .title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid black;
+  font-size: 1.25rem;
+
+ }
+
+ #section1, #section2, #section3 {
+  
+  padding: 12px;
+
+ }
+
+ #section1 .content, #section2 .content, #section3 .content {
+  font-size: 1rem;
+  background-color: #0DD37E; 
+  position: relative;
+  border:1px solid black;
+  padding-top: 12px;
+
+
+
+ }
+ 
+#section1 .title {
+  background-color: #065C37;
+
+}
